@@ -7,5 +7,3 @@ export function load({ setHeaders }) {
 		'Referrer-Policy': 'strict-origin-when-cross-origin'
 	});
 }
-
-export const prerender = true;
