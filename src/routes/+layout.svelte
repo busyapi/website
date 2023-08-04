@@ -7,7 +7,7 @@
 	<link rel="canonical" href={$page.url.toString()} />
 	{#if import.meta.env.MODE == 'production'}
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-BPSNWGF9FS"></script>
-		<script>
+		<script nonce="gtag">
 			window.dataLayer = window.dataLayer || [];
 			function gtag() {
 				dataLayer.push(arguments);
