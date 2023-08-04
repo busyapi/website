@@ -124,3 +124,5 @@
 <div class="container mx-auto flex flex-col items-center px-4 gap-12">
 	<slot />
 </div>
+
+<footer class="sticky top-[100vh]">FOOTER</footer>

@@ -2,7 +2,7 @@
 	import HomeBlock from '$lib/components/HomeBlock.svelte';
 </script>
 
-<div class="flex flex-col gap-6 items-center text-center">
+<div class="flex flex-col gap-3 items-center text-center">
 	<h1
 		class="text-6xl sm:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-violet-500"
 	>
