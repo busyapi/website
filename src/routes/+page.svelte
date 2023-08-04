@@ -1,3 +1,7 @@
+<script>
+	import HomeBlock from '$lib/components/HomeBlock.svelte';
+</script>
+
 <div class="flex flex-col gap-6 items-center text-center">
 	<h1
 		class="text-6xl sm:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-violet-500"
@@ -13,10 +17,7 @@
 	</h2>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-	<div class="rounded-md bg-white dark:bg-slate-800 p-6 shadow-lg shadow-teal-500/30">
-		<h4 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-4 text-teal-500">
-			How to use?
-		</h4>
+	<HomeBlock title="How to use" titleClass="text-teal-500" shadowClass="shadow-teal-500/30">
 		<ul
 			class="list-decimal list-inside font-medium text-sm sm:text-base gap-4 md:gap-6 flex flex-col"
 		>
@@ -35,11 +36,8 @@
 				Be happy and <a href="https://www.buymeacoffee.com/busyapi">donate to support!</a> 👏
 			</li>
 		</ul>
-	</div>
-	<div class="rounded-md bg-white dark:bg-slate-800 p-6 shadow-lg shadow-violet-500/30">
-		<h4 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-4 text-violet-500">
-			Good to know
-		</h4>
+	</HomeBlock>
+	<HomeBlock title="Good to know" titleClass="text-violet-500" shadowClass="shadow-violet-500/30">
 		<ul
 			class="list-decimal list-inside font-medium text-sm sm:text-base gap-4 md:gap-6 flex flex-col"
 		>
@@ -47,5 +45,5 @@
 			<li>Only <span class="text-rose-500 font-bold">GET</span> requests are accepted</li>
 			<li>Most request headers will be ignored</li>
 		</ul>
-	</div>
+	</HomeBlock>
 </div>
