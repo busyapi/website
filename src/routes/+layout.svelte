@@ -125,4 +125,6 @@
 	<slot />
 </div>
 
-<footer class="sticky top-[100vh]">FOOTER</footer>
+<footer class="sticky top-[100vh] text-center py-2 px-4 mt-2 text-sm dark:bg-slate-700">
+	"Everyone pretend, even APIs do" - Me, circa 2013
+</footer>
