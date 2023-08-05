@@ -13,7 +13,7 @@
 		Use <span
 			class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-violet-500"
 			>Busy API</span
-		> to test you API timeout management and emulates long blocking tasks for asynchonous work.
+		> to test your API timeout management and emulates long blocking tasks for asynchonous work.
 	</h2>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
