@@ -17,5 +17,5 @@ h5 {
 }
 
 a {
-	@apply underline decoration-dashed;
+	@apply underline decoration-dashed underline-offset-4;
 }
